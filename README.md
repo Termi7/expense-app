@@ -1,32 +1,33 @@
 # Expense Tracker App
-This is a web application built with React that allows users to track their expenses. Users can enter an expense and classify it by month and year. The app will then display a list of expenses sorted by month and year, as well as perform some calculations such as the total expenses for a given month and year.
 
-##Features
-Users can add expenses with a description, amount, month, and year
-The app will sort and display expenses by month and year
-The app will calculate the total expenses for a given month and year
-Users can filter expenses by month and year
-Users can delete expenses
-Technologies Used
-React
-React Router
-Redux
-CSS
+This is a web application built with React that allows users to track their expenses. The app allows the user to enter an expense and classify it by month and year. It then performs calculations such as total expenses for a given month or year.
 
 ## Getting Started
-To use the app, follow these steps:
 
-Clone the repository to your local machine.
-Open the project in your code editor of choice.
-In the terminal, navigate to the project directory and run the command npm install.
-After the dependencies are installed, run the command npm start to start the development server.
-Open your web browser and navigate to http://localhost:3000/ to see the app.
-Usage
-To add a new expense, click the "Add Expense" button on the homepage.
-Enter the expense details (description, amount, month, and year) and click "Add Expense" to save it.
-To view the list of expenses, click the "Expenses" button on the homepage.
-The expenses will be sorted and displayed by month and year. You can filter the expenses by month and year using the dropdown menus.
-To delete an expense, click the "Delete" button next to the expense you want to delete.
-## Limitations
-The app currently only supports tracking expenses for a single user.
-The app does not support adding multiple expenses at once or importing expenses from a file.
+To use the application, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Run `npm install` to install the dependencies.
+4. Run `npm start` to start the development server.
+5. Open your web browser and navigate to `http://localhost:3000`.
+
+## Usage
+
+To add an expense, click on the "Add Expense" button on the home page. Enter the expense details such as the description, amount, and date. Select the month and year from the dropdown menus. Click "Add Expense" to save the expense.
+
+To view the expenses, click on the "Expenses" button on the home page. The expenses will be displayed in a table with columns for description, amount, date, month, and year.
+
+To perform calculations such as total expenses for a given month or year, click on the "Reports" button on the home page. Select the month or year from the dropdown menu and click "Generate Report". The report will be displayed below the form.
+
+## Technologies Used
+
+- React
+- Bootstrap
+
+## Future Enhancements
+
+- Allow users to edit or delete expenses.
+- Add authentication to secure the app.
+- Allow users to export the data to a CSV file.
+- Improve the UI/UX of the app.
